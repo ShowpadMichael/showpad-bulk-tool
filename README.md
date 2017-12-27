@@ -12,4 +12,15 @@ Run `npm i` (or `npm install`) to install all dependencies
 Run `node index.js` to run the application.
 
 A `config.json` file is created automatically in the root of this folder. 
-You can modify this config file to save the OAuth client ID and secret.
+You can modify this config file to save the credentials for your Showpad account.
+
+`config.json` Example:
+```
+{
+    "subdomain":null,
+    "username":null,
+    "password":null,
+    "apiClientId":null,
+    "apiClientSecret":null
+}
+```

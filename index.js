@@ -22,6 +22,9 @@ if (!fs.existsSync('config.json')) {
     fs.writeFileSync(
         'config.json', 
         JSON.stringify({
+            subdomain: '',
+            username: '',
+            password: '',
             apiClientId: '', 
             apiClientSecret: ''
         })
